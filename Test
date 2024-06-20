@@ -51,6 +51,6 @@ How it works?
   Enabled: This checkbox defines whether the user is enabled or not.
 
   How it works?
-      When a user is being edited, fields should be prefilled according to existing data.
-      The dropdown "User Roles" should be multi-select.
-      Upon new user creation, the "Enabled" checkbox should be selected by default.
+   When a user is being edited, fields should be prefilled according to existing data.
+   The dropdown "User Roles" should be multi-select.
+   Upon new user creation, the "Enabled" checkbox should be selected by default.
