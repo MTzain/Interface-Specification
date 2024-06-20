@@ -1,0 +1,56 @@
+Requirements that the user should have
+
+New User: create a new user.
+Edit Existing User: Update the details of a user.
+Enable/Disable User: Change the status of the User account.
+Hide Disabled Users: Option to hide the users.
+User List: Display the information of the users.
+
+UI components requierments
+
+ Show the list of all users, including disabled and enabled.
+ The "Hide Disabled User" checkbox should be empty.
+ The "New User" form should be hidden.
+ The "Save User" button should be disabled until changes are made.
+
+1. Add new user button
+
+Button label: "+ New User"
+How it works?
+  Open the form "New User" to the right of the screen.
+  While creating a new user all form fields should be empty.
+
+2. Save user button
+
+Button label: "Save User"
+It saves the details filled in the new user form
+While adding a new user it adds the user to the list.
+If editing an existing user, it will update the user information
+
+3. User list table
+
+  ID:Unique for every user.
+  Username:The username.
+  Email: Email of the user.
+  Enabled: Boolean status if the user is enabled or not.
+
+How it works?
+  The Enabled column should have "true" in the case of users and "false" for disabled.
+  Refresh table on any user data change.
+
+ 4. Hide disabled user checkbox
+    How it works?
+      When checked list shall include only enabled users and while its not checked it should include all users.
+
+ 5. New user form
+  Username:Text input for username.
+  Display Name:Text input for display name.
+  Phone:Text input for phone.
+  Email:Text input for email.
+  User Roles:To select user roles from guest,admin or SuperAdmin.
+  Enabled: This checkbox defines whether the user is enabled or not.
+
+  How it works?
+      When a user is being edited, fields should be prefilled according to existing data.
+      The dropdown "User Roles" should be multi-select.
+      Upon new user creation, the "Enabled" checkbox should be selected by default.
